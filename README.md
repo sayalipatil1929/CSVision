@@ -1,6 +1,6 @@
 # 📊 CSVision – Dataset Health Checker (CLI Tool)
-CSVision is a Python-based Command Line Interface (CLI) tool that automatically checks the health and quality of any CSV dataset.<br>
-It helps data analysts quickly detect issues like missing values, duplicates, data type problems, and generates a clear health score with explanations before analysis begins.<br>
+* CSVision is a Python-based Command Line Interface (CLI) tool that automatically checks the health and quality of any CSV dataset.<br>
+* It helps data analysts quickly detect issues like missing values, duplicates, data type problems, and generates a clear health score with explanations before analysis begins.<br>
 ---
 # 🚩 Problem Statement
 Manual dataset validation is time-consuming and error-prone.<br>
@@ -31,7 +31,7 @@ CSVision automates dataset profiling and quality checks using Python, providing:
 # 📂 Project Structure
 csvision/<br>
 │<br>
-├── cli.py              # Entry point (CLI command execution)<br>
+├── cli.py               <!-- Entry point (CLI command execution)--><br>
 ├── profiler.py         # Dataset profiling logic<br>
 ├── checks.py           # Data quality checks<br>
 ├── scorer.py           # Health score calculation<br>
