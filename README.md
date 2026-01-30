@@ -44,16 +44,16 @@ csvision/<br>
 ├── .gitignore<br>
 ---
 # ▶️ How to Use
-* Install Requirements
-pip install pandas
+* Install Requirements<br>
+`pip install pandas`
 
-* Run the Tool
+* Run the Tool<br>
 `python csvision/cli.py your_dataset.csv`
 
-* Export Report (Optional)
+* Export Report (Optional)<br>
 `python csvision/cli.py your_dataset.csv --export`
 
-A report file will be generated automatically.
+* A report file will be generated automatically.
 ---
 # 📁 Using Different Datasets
 CSVision works with any CSV dataset, such as:<br>
