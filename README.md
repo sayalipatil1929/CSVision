@@ -3,8 +3,8 @@
 * It helps data analysts quickly detect issues like missing values, duplicates, data type problems, and generates a clear health score with explanations before analysis begins.<br>
 ---
 # 🚩 Problem Statement
-Manual dataset validation is time-consuming and error-prone.<br>
-Poor data quality often leads to incorrect insights and wasted analysis effort.
+* Manual dataset validation is time-consuming and error-prone.<br>
+* Poor data quality often leads to incorrect insights and wasted analysis effort.
 ---
 # ✅ Solution
 CSVision automates dataset profiling and quality checks using Python, providing:<br>
@@ -32,13 +32,13 @@ CSVision automates dataset profiling and quality checks using Python, providing:
 csvision/<br>
 │<br>
 ├── cli.py               <!-- Entry point (CLI command execution)--><br>
-├── profiler.py         # Dataset profiling logic<br>
-├── checks.py           # Data quality checks<br>
-├── scorer.py           # Health score calculation<br>
-├── explainer.py        # Human-readable explanations<br>
+├── profiler.py          <!--  Dataset profiling logic--><br>
+├── checks.py            <!-- Data quality checks --><br>
+├── scorer.py            <!-- Health score calculation --><br>
+├── explainer.py         <!-- Human-readable explanations --><br>
 ├── __init__.py<br>
 │<br>
-├── sample.csv          # Sample dataset<br>
+├── sample.csv           <!-- Sample dataset --><br>
 ├── Superstore_csvision_report.txt  # Exported report<br>
 ├── README.md<br>
 ├── .gitignore<br>
