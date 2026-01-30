@@ -1,0 +1,6 @@
+id,age,salary,city
+1,25,50000,Pune
+2,30,60000,Mumbai
+3,,55000,Delhi
+4,150,70000,Bangalore
+5,28,,Pune
